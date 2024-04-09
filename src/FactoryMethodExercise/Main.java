@@ -11,10 +11,10 @@ public class Main {
 
         FactoryNames factoryNames = new FactoryNames();
 
-        for (int i = 0; i < data.length; i++) {
+        for (String datum : data) {
 
-            IName instance = factoryNames.getTypeName(data[i]);
-            String[] splited = instance.splitFullName(data[i]);
+            IName instance = factoryNames.getTypeName(datum);
+            String[] splited = instance.splitFullName(datum);
             instance.save(splited);
         }
 
