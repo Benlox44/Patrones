@@ -4,11 +4,11 @@ public class FactoriaPeliculaComedia implements IFactoriaPelicula {
 
     @Override
     public IPeliculaMarvel getPeliculaMarvel() {
-        return null;
+        return new PeliculaMarvel();
     }
 
     @Override
     public IPeliculaWarner getPeliculaWarner() {
-        return null;
+        return new PeliculaWarner();
     }
 }

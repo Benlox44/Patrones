@@ -1,7 +1,6 @@
 package CreationalPatterns.AbstractFactoryExercise;
 
 public class ScreenPinter implements IPrinter {
-
     public ScreenPinter(){}
 
     @Override

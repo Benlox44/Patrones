@@ -3,7 +3,6 @@ package CreationalPatterns.AbstractFactoryExercise;
 import javax.swing.JOptionPane;
 
 public class FilePrinter implements IPrinter {
-
     public FilePrinter(){}
 
     @Override
