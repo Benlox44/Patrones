@@ -15,5 +15,6 @@ public class Main {
         while (!scientistIterator.done()) {
             System.out.println(scientistIterator.next());
         }
+        System.out.println("\nArtist Subjects:");
     }
 }
